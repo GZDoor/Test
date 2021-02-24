@@ -30,7 +30,28 @@ Body{
     Background-color:rgb(255, 58, 140);
 }
 
-
+@media screen and (max-width:400px){
+    #quote{
+        background-color:rgba(66, 176, 226, 0.5);
+        font-size:23px;
+        border:solid 3px rgb(40, 198, 238);
+    }
+    #author{
+        background-color:rgba(66, 176, 226, 0.5);
+        font-size:19px;
+        border:solid 3px rgb(40, 198, 238);
+    }
+    #button{
+        background-color:rgb(38, 197, 236);
+        padding:0.2%;
+        width:100%;
+        height:20%;
+        transition:1s ease;
+    }
+    #button:hover{
+        background-color:rgb(38, 197, 236);
+    }
+}
 
 
 
